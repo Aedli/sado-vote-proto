@@ -1,0 +1,6 @@
+node_modules
+dist
+*.log
+
+# 원본 기획서는 IP를 다루는 문서라 공개 저장소에 올리지 않는다
+docs/*.pdf

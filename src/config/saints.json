@@ -1,0 +1,1484 @@
+[
+  {
+    "id": "s001",
+    "name": "사도 001",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 001에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s002",
+    "name": "사도 002",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 002에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s003",
+    "name": "사도 003",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 003에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s004",
+    "name": "사도 004",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 004에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s005",
+    "name": "사도 005",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 005에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s006",
+    "name": "사도 006",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 006에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s007",
+    "name": "사도 007",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 007에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s008",
+    "name": "사도 008",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 008에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s009",
+    "name": "사도 009",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 009에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s010",
+    "name": "사도 010",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 010에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s011",
+    "name": "사도 011",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 011에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s012",
+    "name": "사도 012",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 012에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s013",
+    "name": "사도 013",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 013에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s014",
+    "name": "사도 014",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 014에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s015",
+    "name": "사도 015",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 015에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s016",
+    "name": "사도 016",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 016에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s017",
+    "name": "사도 017",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 017에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s018",
+    "name": "사도 018",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 018에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s019",
+    "name": "사도 019",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 019에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s020",
+    "name": "사도 020",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 020에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s021",
+    "name": "사도 021",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 021에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s022",
+    "name": "사도 022",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 022에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s023",
+    "name": "사도 023",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 023에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s024",
+    "name": "사도 024",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 024에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s025",
+    "name": "사도 025",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 025에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s026",
+    "name": "사도 026",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 026에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s027",
+    "name": "사도 027",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 027에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s028",
+    "name": "사도 028",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 028에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s029",
+    "name": "사도 029",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 029에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s030",
+    "name": "사도 030",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 030에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s031",
+    "name": "사도 031",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 031에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s032",
+    "name": "사도 032",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 032에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s033",
+    "name": "사도 033",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 033에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s034",
+    "name": "사도 034",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 034에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s035",
+    "name": "사도 035",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 035에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s036",
+    "name": "사도 036",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 036에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s037",
+    "name": "사도 037",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 037에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s038",
+    "name": "사도 038",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 038에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s039",
+    "name": "사도 039",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 039에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s040",
+    "name": "사도 040",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 040에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s041",
+    "name": "사도 041",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 041에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s042",
+    "name": "사도 042",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 042에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s043",
+    "name": "사도 043",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 043에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s044",
+    "name": "사도 044",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 044에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s045",
+    "name": "사도 045",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 045에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s046",
+    "name": "사도 046",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 046에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s047",
+    "name": "사도 047",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 047에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s048",
+    "name": "사도 048",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 048에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s049",
+    "name": "사도 049",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 049에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s050",
+    "name": "사도 050",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 050에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s051",
+    "name": "사도 051",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 051에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s052",
+    "name": "사도 052",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 052에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s053",
+    "name": "사도 053",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 053에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s054",
+    "name": "사도 054",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 054에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s055",
+    "name": "사도 055",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 055에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s056",
+    "name": "사도 056",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 056에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s057",
+    "name": "사도 057",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 057에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s058",
+    "name": "사도 058",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 058에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s059",
+    "name": "사도 059",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 059에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s060",
+    "name": "사도 060",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 060에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s061",
+    "name": "사도 061",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 061에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s062",
+    "name": "사도 062",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 062에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s063",
+    "name": "사도 063",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 063에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s064",
+    "name": "사도 064",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 064에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s065",
+    "name": "사도 065",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 065에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s066",
+    "name": "사도 066",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 066에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s067",
+    "name": "사도 067",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 067에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s068",
+    "name": "사도 068",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 068에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s069",
+    "name": "사도 069",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 069에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s070",
+    "name": "사도 070",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 070에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s071",
+    "name": "사도 071",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 071에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s072",
+    "name": "사도 072",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 072에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s073",
+    "name": "사도 073",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 073에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s074",
+    "name": "사도 074",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 074에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s075",
+    "name": "사도 075",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 075에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s076",
+    "name": "사도 076",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 076에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s077",
+    "name": "사도 077",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 077에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s078",
+    "name": "사도 078",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 078에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s079",
+    "name": "사도 079",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 079에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s080",
+    "name": "사도 080",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 080에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s081",
+    "name": "사도 081",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 081에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s082",
+    "name": "사도 082",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 082에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s083",
+    "name": "사도 083",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 083에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s084",
+    "name": "사도 084",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 084에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s085",
+    "name": "사도 085",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 085에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s086",
+    "name": "사도 086",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 086에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s087",
+    "name": "사도 087",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 087에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s088",
+    "name": "사도 088",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 088에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s089",
+    "name": "사도 089",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 089에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s090",
+    "name": "사도 090",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 090에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s091",
+    "name": "사도 091",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 091에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s092",
+    "name": "사도 092",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 092에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s093",
+    "name": "사도 093",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 093에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s094",
+    "name": "사도 094",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 094에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s095",
+    "name": "사도 095",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 095에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s096",
+    "name": "사도 096",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 096에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s097",
+    "name": "사도 097",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 097에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s098",
+    "name": "사도 098",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 098에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s099",
+    "name": "사도 099",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 099에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s100",
+    "name": "사도 100",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 100에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s101",
+    "name": "사도 101",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 101에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s102",
+    "name": "사도 102",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 102에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s103",
+    "name": "사도 103",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 103에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s104",
+    "name": "사도 104",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 104에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s105",
+    "name": "사도 105",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 105에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s106",
+    "name": "사도 106",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 106에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s107",
+    "name": "사도 107",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 107에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s108",
+    "name": "사도 108",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 108에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s109",
+    "name": "사도 109",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 109에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s110",
+    "name": "사도 110",
+    "title": "세계수 교단 소속",
+    "personality": "P5",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 110에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s111",
+    "name": "사도 111",
+    "title": "세계수 교단 소속",
+    "personality": "P1",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 111에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s112",
+    "name": "사도 112",
+    "title": "세계수 교단 소속",
+    "personality": "P2",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 112에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s113",
+    "name": "사도 113",
+    "title": "세계수 교단 소속",
+    "personality": "P3",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 113에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  },
+  {
+    "id": "s114",
+    "name": "사도 114",
+    "title": "세계수 교단 소속",
+    "personality": "P4",
+    "image": null,
+    "lines": {
+      "prelimSelect": "사도 114에게 한 표 부탁드려요!",
+      "missionIdle": "오늘의 미션, 같이 해 봐요.",
+      "finalSelect": "본선까지 올라왔어요. 끝까지 함께해 주실 거죠?",
+      "victory": "교주님 덕분이에요. 정말 고마워요!"
+    }
+  }
+]
