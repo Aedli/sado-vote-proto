@@ -20,7 +20,6 @@
 * { box-sizing: border-box; }
 body {
   margin: 0;
-  min-width: 1280px;
   background: var(--bg);
   color: var(--text);
   font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
@@ -38,6 +37,8 @@ button:disabled { cursor: not-allowed; opacity: 0.5; }
 .topbar .spacer { flex: 1; }
 .chip { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; }
 .chip.assume { background: var(--warn-bg); color: var(--warn); border: 1px solid #f0d48f; }
+/* 검증 리포트는 PC 넓은 화면 기준 (게임 화면은 무대가 창에 맞춰 줄어든다) */
+.topbar, .page { min-width: 1280px; }
 .page { max-width: 1240px; margin: 0 auto; padding: 24px 32px 80px; }
 .card {
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);

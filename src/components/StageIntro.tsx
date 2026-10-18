@@ -1,7 +1,8 @@
-import { useEffect, useState, type ReactNode } from 'react';
+import { useState, type ReactNode } from 'react';
 import { ASSUMPTION_HELP, STAGE_INTRO_HELP, type HelpKey } from '../config/help';
 import { HelpContent } from './Help';
 import { Modal } from './Modal';
+import { useAutoPopup } from './popupQueue';
 
 const storageKey = (stage: string) => `sado-vote.helpSeen.${stage}`;
 
@@ -23,15 +24,18 @@ function markSeen(stage: string): void {
 
 /** 단계 최초 진입 시 1회 자동으로 뜨고, 이후에는 버튼으로 다시 여는 설명 팝업 (부록 B13) */
 export function StageIntro({ stage, intro }: { stage: keyof typeof STAGE_INTRO_HELP; intro: ReactNode }) {
-  const [open, setOpen] = useState(false);
+  const [manual, setManual] = useState(false);
+  const [wanted, setWanted] = useState(() => !seen(stage));
+  const auto = useAutoPopup(`stage.${stage}`, wanted);
+  const open = manual || auto.open;
+  const setOpen = setManual;
   const [detail, setDetail] = useState<HelpKey | null>(null);
-  useEffect(() => {
-    if (!seen(stage)) setOpen(true);
-  }, [stage]);
   const close = () => {
     markSeen(stage);
-    setOpen(false);
+    setWanted(false);
+    setManual(false);
     setDetail(null);
+    auto.done();
   };
   const cfg = STAGE_INTRO_HELP[stage];
   return (

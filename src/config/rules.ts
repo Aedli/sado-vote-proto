@@ -50,6 +50,8 @@ export interface RulesConfig {
   saintCount: number;
   personalityNames: Record<Personality, string>;
   missionNames: string[];
+  /** 미션 진행도 표시용 목표 수치 (예: 구매 2회 → 2) */
+  missionTargets: number[];
   prelim: PrelimRules;
   final: FinalRules;
   damage: DamageRules;
@@ -69,6 +71,7 @@ export const DEFAULT_RULES: RulesConfig = {
     '교단 펫 선물 수령 1회',
     '일일 던전 1회 클리어',
   ],
+  missionTargets: [1, 1, 2, 100, 100, 1, 2, 1, 1],
   prelim: {
     days: 7,
     missionCount: 9,

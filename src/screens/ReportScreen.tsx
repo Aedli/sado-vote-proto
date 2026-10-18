@@ -21,7 +21,7 @@ const INTRO = (
 );
 
 /** 검증 리포트 (SPEC §8.12, 프로토타입 전용·기획자 시점) */
-export function ReportScreen() {
+export function ReportScreen({ onBack }: { onBack?: () => void } = {}) {
   const { config, ranConfig, status, progress, data, ms, error, setRun, run } = useReportStore();
   const pending = ranConfig !== null && status !== 'running' && JSON.stringify(ranConfig) !== JSON.stringify(config);
   const used = ranConfig ? diffFromDefault(ranConfig.population) : [];
@@ -33,6 +33,11 @@ export function ReportScreen() {
   return (
     <>
       <header className="topbar">
+        {onBack && (
+          <button className="btn top-btn" onClick={onBack}>
+            ◀ 시작 화면
+          </button>
+        )}
         <h1>검증 리포트</h1>
         <span className="chip assume">가정값 기반 시뮬레이션</span>
         <span className="spacer" />
