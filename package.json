@@ -9,11 +9,13 @@
     "preview": "vite preview",
     "test": "vitest run",
     "sim": "tsx scripts/sim-cli.ts",
-    "gen:saints": "node scripts/gen-saints.mjs"
+    "gen:saints": "node scripts/gen-saints.mjs",
+    "report": "tsx scripts/report-cli.ts"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "recharts": "^3.10.1",
     "zustand": "^5.0.15"
   },
   "devDependencies": {
