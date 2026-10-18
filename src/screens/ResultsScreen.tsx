@@ -1,6 +1,7 @@
 import { DEFAULT_REWARDS } from '../config/rewards';
 import { SAINTS } from '../config/saints';
-import { RESULT_TEXT } from '../config/ui';
+import { DIRECTION_TEXT, RESULT_TEXT } from '../config/ui';
+import { DirectionCard } from '../components/DirectionCard';
 import { useAutoPopup } from '../components/popupQueue';
 import { SaintFigure } from '../components/SaintFigure';
 import { SaintPortrait } from '../components/SaintPortrait';
@@ -30,9 +31,13 @@ function WinnerBody({ winner }: { winner: number }) {
 /** 결과 발표 (§8.11) */
 export function ResultsScreen() {
   const { view, go, setup, seen, markSeen } = useGameStore();
-  const popup = useAutoPopup('results', !seen.results);
+  const popup = useAutoPopup('results', seen.resultsDir && !seen.results);
   const r = view?.results;
   if (!view || !r) return null;
+  // 결과 발표 연출 설명 카드 → 우승 팝업 (부록 B29)
+  if (!seen.resultsDir) {
+    return <DirectionCard text={DIRECTION_TEXT.results} actionLabel="결과 보기" onAction={() => markSeen('resultsDir')} />;
+  }
   const winner = SAINTS[r.winner];
   const tier = DEFAULT_REWARDS.dealTiers.find((t) => t.id === r.myDealTier);
   const groups = DEFAULT_REWARDS.saintRank.map((g, i, arr) => {

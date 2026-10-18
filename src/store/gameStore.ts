@@ -40,7 +40,7 @@ interface GameState {
   busy: string | null;
   toast: { text: string; kind: 'info' | 'error' } | null;
   /** 이번 게임에서 이미 본 연출·팝업 */
-  seen: { opening: boolean; announce: boolean; invasion: boolean; results: boolean };
+  seen: { opening: boolean; announce: boolean; invasion: boolean; results: boolean; announceDir: boolean; resultsDir: boolean };
   battle: BattleResult | null;
   setSetup: (patch: Partial<Setup>) => void;
   start: () => Promise<void>;
@@ -95,7 +95,7 @@ export const useGameStore = create<GameState>((set, get) => ({
   plannerOn: false,
   busy: null,
   toast: null,
-  seen: { opening: false, announce: false, invasion: false, results: false },
+  seen: { opening: false, announce: false, invasion: false, results: false, announceDir: false, resultsDir: false },
   battle: null,
 
   setSetup: (patch) => set((s) => ({ setup: { ...s.setup, ...patch } })),
@@ -106,7 +106,7 @@ export const useGameStore = create<GameState>((set, get) => ({
     config.run = { seed: setup.seed, botCount: setup.botCount };
     // 검증 리포트에서 바꾼 가정값을 플레이에도 그대로 쓴다
     config.population = structuredClone(useReportStore.getState().config.population);
-    set({ busy: `봇 ${setup.botCount.toLocaleString('ko-KR')}명을 준비하는 중…`, seen: { opening: false, announce: false, invasion: false, results: false }, battle: null });
+    set({ busy: `봇 ${setup.botCount.toLocaleString('ko-KR')}명을 준비하는 중…`, seen: { opening: false, announce: false, invasion: false, results: false, announceDir: false, resultsDir: false }, battle: null });
     const r = await request({ type: 'init', config, setup: { spec: setup.spec, trained: setup.trained } });
     if (!r.ok) {
       set({ busy: null });

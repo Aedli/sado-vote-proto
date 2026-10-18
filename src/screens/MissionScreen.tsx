@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { prelimGuide } from '../config/guide';
 import { DEFAULT_RULES } from '../config/rules';
 import { SAINTS } from '../config/saints';
-import { MISSION_ICONS } from '../config/ui';
+import { CLAIM_DIRECTION, MISSION_ICONS } from '../config/ui';
 import { GuidePopup } from '../components/GuidePopup';
 import { SaintFigure } from '../components/SaintFigure';
 import { GameHeader } from '../components/TopBar';
@@ -10,7 +10,7 @@ import { useGameStore } from '../store/gameStore';
 
 /** 예선 미션 화면 (§8.4, 기획서 p.20). 순위 정보는 없음 */
 export function MissionScreen() {
-  const { view, send, go, showToast } = useGameStore();
+  const { view, send, go } = useGameStore();
   const [flying, setFlying] = useState(0);
   if (!view) return null;
   const p = view.prelim;
@@ -21,20 +21,18 @@ export function MissionScreen() {
 
   const fly = (votes: number) => {
     setFlying(votes);
-    setTimeout(() => setFlying(0), 900);
+    setTimeout(() => setFlying(0), CLAIM_DIRECTION.ms);
   };
   const claim = async (m: number) => {
     const r = await send({ type: 'claimMission', mission: m });
     if (r.ok && r.value) {
       fly(r.value);
-      showToast(`+${r.value}표 → ${SAINTS[saint].name}`);
     }
   };
   const claimAll = async () => {
     const r = await send({ type: 'claimAll' });
     if (r.ok && r.value) {
       fly(r.value);
-      showToast(`모두 받기: +${r.value}표 → ${SAINTS[saint].name}`);
     }
   };
 
@@ -54,7 +52,12 @@ export function MissionScreen() {
           <div className="speech mis-speech">{SAINTS[saint].lines.missionIdle}</div>
           <div className="mis-figure">
             <SaintFigure saint={saint} height={420} />
-            {flying > 0 && <div className="fly">+{flying}표</div>}
+            {flying > 0 && (
+              <div className="claim-dir">
+                <span className="claim-tag">{CLAIM_DIRECTION.tag}</span>
+                {CLAIM_DIRECTION.text} · <b>+{flying}표</b>
+              </div>
+            )}
           </div>
         </>
       )}

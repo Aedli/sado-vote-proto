@@ -2,7 +2,8 @@ import { useMemo, useState } from 'react';
 import { finalGuide, prelimGuide } from '../config/guide';
 import { DEFAULT_RULES, PERSONALITIES, type Personality } from '../config/rules';
 import { SAINTS } from '../config/saints';
-import { ANNOUNCE_TEXT, FINAL_WARNING, PERSONALITY_COLORS } from '../config/ui';
+import { ANNOUNCE_TEXT, DIRECTION_TEXT, FINAL_WARNING, PERSONALITY_COLORS } from '../config/ui';
+import { DirectionCard } from '../components/DirectionCard';
 import { GuidePopup } from '../components/GuidePopup';
 import { Modal } from '../components/Modal';
 import { useAutoPopup } from '../components/popupQueue';
@@ -63,6 +64,10 @@ export function SaintSelectScreen({ mode }: { mode: 'prelim' | 'final' }) {
   );
   const [picked, setPicked] = useState<number>(locked !== -1 ? locked : candidates[0]);
   if (!view) return null;
+  // 본선 첫 진입: 시상식 연출 설명 카드 → 진출 공지 팝업 (부록 B29)
+  if (mode === 'final' && !seen.announceDir) {
+    return <DirectionCard text={DIRECTION_TEXT.announce} actionLabel="진출 사도 보기" onAction={() => markSeen('announceDir')} />;
+  }
 
   const list = candidates
     .filter((s) => filter === null || SAINTS[s]?.personality === filter)
