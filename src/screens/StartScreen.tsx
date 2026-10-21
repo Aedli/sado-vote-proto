@@ -1,7 +1,9 @@
 import { diffFromDefault } from '../config/assumptionFields';
+import { PROJECT_INTRO_TITLE, projectIntro } from '../config/intro';
 import { SPEC_LABEL } from '../config/reportText';
 import { DEFAULT_RULES, PERSONALITIES, SPEC_TIERS } from '../config/rules';
 import { PERSONALITY_COLORS } from '../config/ui';
+import { GuidePopup } from '../components/GuidePopup';
 import { useGameStore } from '../store/gameStore';
 import { useReportStore } from '../store/reportStore';
 
@@ -19,8 +21,14 @@ export function StartScreen() {
   return (
     <div className="start">
       <div className="start-card card">
-        <h1>세계수 교단 수석 사도 투표</h1>
-        <p className="muted">교주가 되어 2주 이벤트를 몇 분 안에 체험합니다. 같은 규칙으로 움직이는 봇들과 함께 투표하고 경쟁합니다.</p>
+        <div className="start-title-row">
+          <h1>세계수 교단 수석 사도 투표</h1>
+          <GuidePopup id="project" title={PROJECT_INTRO_TITLE} sections={projectIntro(DEFAULT_RULES)} />
+        </div>
+        <p className="muted">
+          인기투표 이벤트 기획서의 규칙이 의도대로 작동하는지 확인하는 플레이어블 프로토타입이자 검증 도구입니다. 교주가 되어 2주 이벤트를 몇 분 안에
+          체험하거나, 봇 1만 명의 시뮬레이션 결과로 기획 의도를 검증할 수 있습니다.
+        </p>
 
         <h3>시뮬레이션 설정</h3>
         <div className="controls">

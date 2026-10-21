@@ -236,3 +236,6 @@
 .trained-chip.on { background: var(--green-light); font-weight: 700; }
 .trained-chip input { display: none; }
 .start-actions { display: flex; gap: 12px; margin-top: 28px; flex-wrap: wrap; }
+
+.start-title-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.start-title-row h1 { margin-bottom: 0; }
