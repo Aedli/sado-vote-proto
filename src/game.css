@@ -239,3 +239,12 @@
 
 .start-title-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .start-title-row h1 { margin-bottom: 0; }
+.quick-run { margin-top: 18px; background: var(--green-light); border: 2px solid var(--green); border-radius: 14px; padding: 16px 18px; display: flex; align-items: center; gap: 18px; }
+.quick-run-text { flex: 1; display: flex; flex-direction: column; gap: 4px; }
+.quick-run-text b { font-size: 20px; color: var(--green-dark); }
+.rec-tag { align-self: flex-start; background: var(--green); color: #fff; font-size: 12px; font-weight: 700; border-radius: 999px; padding: 1px 10px; }
+.quick-run-btn { font-size: 18px; padding: 14px 26px; white-space: nowrap; box-shadow: 0 4px 0 var(--green-dark); }
+.start-card .start-actions { margin-top: 12px; align-items: center; }
+.play-section { margin-top: 22px; border-top: 1px solid var(--line); padding-top: 12px; }
+.play-section summary { cursor: pointer; }
+.play-section h3 { margin-top: 14px; }
