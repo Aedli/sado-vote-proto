@@ -231,12 +231,20 @@ export function userRewardValues(sim: Simulation): (number | null)[] {
   );
 }
 
+/** 랭킹판 키 목록: 사도별 판이면 진출 사도들, 통합 판이면 하나(-1) */
+function boardKeys(sim: Simulation): number[] {
+  return sim.config.rules.final.boardMode === 'unified' ? [-1] : [...(sim.state.finalists ?? [])];
+}
+
+const boardKeyOfSaint = (sim: Simulation, saint: number) => (sim.config.rules.final.boardMode === 'unified' ? -1 : saint);
+
 /** 점수 score인 계정을 각 판에 넣었을 때의 순위·구간 */
 export function placeInBoards(sim: Simulation, score: number, homeSaint: number, boardTotals: Map<number, number[]>): BoardPlacement[] {
   const tiers = sim.config.rewards.dealTiers;
-  return (sim.state.finalists ?? []).map((saint) => {
+  const homeKey = boardKeyOfSaint(sim, homeSaint);
+  return boardKeys(sim).map((saint) => {
     const desc = boardTotals.get(saint) ?? [];
-    const self = saint === homeSaint;
+    const self = saint === homeKey;
     const rank = countAbove(desc, score) + 1;
     const boardSize = self ? desc.length : desc.length + 1;
     const tier = dealTierFor(rank, boardSize, tiers);
@@ -253,8 +261,8 @@ export function placeInBoards(sim: Simulation, score: number, homeSaint: number,
 
 function boardTotalsOf(sim: Simulation): Map<number, number[]> {
   const out = new Map<number, number[]>();
-  for (const saint of sim.state.finalists ?? []) out.set(saint, []);
-  for (const u of sim.state.users) if (isParticipant(u)) out.get(u.final.saint)?.push(u.final.total);
+  for (const key of boardKeys(sim)) out.set(key, []);
+  for (const u of sim.state.users) if (isParticipant(u)) out.get(boardKeyOfSaint(sim, u.final.saint))?.push(u.final.total);
   for (const list of out.values()) list.sort((a, b) => b - a);
   return out;
 }
@@ -284,15 +292,15 @@ export function computeH1(sim: Simulation, c: CriteriaConfig): ReportData['h1'] 
   const ranking = finalSaintRanking(state);
   const participants = state.users.filter(isParticipant);
 
-  const boards: BoardInfo[] = (state.finalists ?? []).map((saint) => {
+  const boards: BoardInfo[] = boardKeys(sim).map((saint) => {
     const desc = totals.get(saint) ?? [];
     return {
       saint,
-      finalRank: ranking.indexOf(saint) + 1,
+      finalRank: saint < 0 ? 0 : ranking.indexOf(saint) + 1,
       size: desc.length,
       top100Cutoff: desc.length > 100 ? desc[99] : null,
       topScore: desc[0] ?? 0,
-      popularityRank: sim.saints[saint].popularityRank,
+      popularityRank: saint < 0 ? 0 : sim.saints[saint].popularityRank,
     };
   });
 

@@ -21,7 +21,7 @@ const INTRO = (
 );
 
 /** 검증 리포트 (SPEC §8.12, 프로토타입 전용·기획자 시점) */
-export function ReportScreen({ onBack }: { onBack?: () => void } = {}) {
+export function ReportScreen({ onBack, onCompare }: { onBack?: () => void; onCompare?: () => void } = {}) {
   const { config, ranConfig, status, progress, data, ms, error, setRun, run } = useReportStore();
   const pending = ranConfig !== null && status !== 'running' && JSON.stringify(ranConfig) !== JSON.stringify(config);
   const used = ranConfig ? diffFromDefault(ranConfig.population) : [];
@@ -42,8 +42,8 @@ export function ReportScreen({ onBack }: { onBack?: () => void } = {}) {
         <span className="chip assume">가정값 기반 시뮬레이션</span>
         <span className="spacer" />
         <StageIntro stage="report" intro={INTRO} />
-        <button className="btn ghost" disabled title={SCENARIO_BUTTON.note}>
-          {SCENARIO_BUTTON.label} ({SCENARIO_BUTTON.note})
+        <button className="btn ghost" disabled={!onCompare} onClick={onCompare} title={SCENARIO_BUTTON.note}>
+          {SCENARIO_BUTTON.label}
         </button>
       </header>
       <main className="page">

@@ -2,6 +2,7 @@ import { PlannerPanel } from './components/PlannerPanel';
 import { Stage } from './components/Stage';
 import { ProtoBar } from './components/TopBar';
 import { BattleScreen } from './screens/BattleScreen';
+import { CompareScreen } from './screens/CompareScreen';
 import { InvasionScreen, OpeningScreen } from './screens/CinematicScreen';
 import { MissionScreen } from './screens/MissionScreen';
 import { PartyScreen } from './screens/PartyScreen';
@@ -41,7 +42,8 @@ export function App() {
 
   let body: React.ReactNode;
   if (screen === 'start') body = <StartScreen />;
-  else if (screen === 'report') body = <ReportScreen onBack={() => go('start')} />;
+  else if (screen === 'report') body = <ReportScreen onBack={() => go('start')} onCompare={() => go('compare')} />;
+  else if (screen === 'compare') body = <CompareScreen onBack={() => go('start')} />;
   else
     body = (
       <div className="game">

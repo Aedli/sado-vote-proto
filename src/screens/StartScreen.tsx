@@ -7,7 +7,7 @@ import { useReportStore } from '../store/reportStore';
 
 /** 시작 화면 / 내 계정 설정 (§8.1, 프로토타입 전용) */
 export function StartScreen() {
-  const { setup, setSetup, start, quickRun, busy } = useGameStore();
+  const { setup, setSetup, start, quickRun, busy, go } = useGameStore();
   const population = useReportStore((s) => s.config.population);
   const changed = diffFromDefault(population).length;
   const range = DEFAULT_RULES.damage.trainedCount[setup.spec];
@@ -80,6 +80,9 @@ export function StartScreen() {
           </button>
           <button className="btn ghost big" onClick={quickRun} disabled={busy !== null}>
             빠른 실행 (플레이 없이 14일 → 검증 리포트)
+          </button>
+          <button className="btn ghost big" onClick={() => go('compare')} disabled={busy !== null}>
+            기획자 패널 · 시나리오 비교
           </button>
         </div>
       </div>

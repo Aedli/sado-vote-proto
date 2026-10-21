@@ -105,6 +105,31 @@ export const ASSUMPTION_HELP = {
     example: '0.85면 100일 중 85일은 최애, 15일은 다른 선호 사도에게 투표합니다.',
     why: '표가 여러 사도에게 나뉘는 정도를 정합니다. 낮을수록 "팬 수와 득표의 일치도"(H2)가 흔들릴 수 있습니다.',
   },
+  strategicSwitch: {
+    title: '순위 공개 시 표 옮김',
+    summary: '예선 순위가 공개되는 시나리오에서, 응원 사도가 진출권 밖이면 진출권 안의 사도로 표를 옮길 가능성입니다. 순위 비공개(원안)에서는 쓰이지 않습니다.',
+    example: '0.35면, 최애가 15위 밖으로 보일 때 100번 중 35번은 "어차피 떨어질 테니" 진출권 안의 다른 좋아하는 사도나 유명한 사도에게 표를 줍니다. 열성 최애형은 0.1로 거의 옮기지 않습니다.',
+    why: '기획서는 "순위를 공개하면 사표를 피하려고 표가 상위권으로 몰린다"며 비공개를 택했습니다. 이 값으로 순위 공개 시나리오를 만들어 그 주장이 맞는지 비교합니다.',
+  },
+  compareMean: {
+    title: '평균 ± 흔들림 폭',
+    summary: '같은 시나리오를 여러 세상(시드)에서 반복해 돌린 결과의 평균과, 결과가 평균에서 보통 얼마나 벗어나는지입니다.',
+    example: '"0.95 ± 0.02"면 20번 돌렸을 때 대부분 0.93~0.97 사이로 나왔다는 뜻입니다. 흔들림 폭이 작을수록 믿을 만한 결과입니다.',
+    why: '한 번만 돌리면 우연히 좋거나 나쁘게 나올 수 있습니다. 여러 번의 평균을 봐야 규칙 때문에 생긴 차이인지 알 수 있습니다.',
+    formula: '± 뒤의 숫자 = 표준편차',
+  },
+  compareCount: {
+    title: '판정 횟수',
+    summary: '반복한 횟수 중 통과·주의·실패가 각각 몇 번 나왔는지입니다.',
+    example: '"통과 17 · 주의 3 · 실패 0"이면 20번 중 3번은 주의가 나왔다는 뜻입니다. 평균은 통과여도 조건에 따라 아슬아슬할 수 있습니다.',
+    why: '평균만 보면 가끔 나오는 나쁜 경우를 놓칠 수 있어서 함께 봅니다.',
+  },
+  compareSameWorlds: {
+    title: '같은 세상에서 비교',
+    summary: '모든 시나리오는 같은 시드 목록(같은 사도 인기, 같은 봇들)에서 돌립니다.',
+    example: '시나리오 A와 B가 모두 1번~20번 세상에서 돌아가므로, 결과 차이는 규칙이나 가정값 차이에서만 생깁니다.',
+    why: '같은 재료로 요리해야 요리법 차이를 알 수 있는 것과 같습니다.',
+  },
 } satisfies Record<string, HelpEntry>;
 
 export type HelpKey = keyof typeof ASSUMPTION_HELP;
@@ -114,5 +139,6 @@ export const STAGE_INTRO_HELP: Record<string, { title: string; keys: HelpKey[] }
   report: { title: '검증 리포트 읽는 법', keys: ['assumption', 'popularity', 'fervor', 'rewardSensitivity'] },
   plannerPanel: { title: '기획자 패널의 가정값', keys: ['assumption', 'connectRate', 'missionRate', 'fervor', 'perceivedPopularity', 'rewardSensitivity'] },
   prelimSide: { title: '예선 데이터 보는 법', keys: ['assumption', 'popularity', 'fervor', 'routine', 'lateEntry'] },
+  compare: { title: '시나리오 비교 읽는 법', keys: ['compareMean', 'compareCount', 'compareSameWorlds', 'assumption'] },
   finalSide: { title: '본선 데이터 보는 법', keys: ['favoriteEliminated', 'rewardSensitivity', 'perceivedPopularity'] },
 };

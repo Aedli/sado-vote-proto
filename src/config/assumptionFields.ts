@@ -39,7 +39,7 @@ export const ASSUMPTION_GROUPS: { id: AssumptionGroupId; title: string; desc: st
   { id: 'elimination', title: '좋아하던 사도가 전부 탈락했을 때', desc: '"다음으로 좋아하던 사도"로 옮기려는데 선호 사도가 모두 떨어진 경우의 처리입니다.' },
 ];
 
-export type ArchetypeColumn = 'ratio' | 'connectRate' | 'missionRate' | 'leave' | 'nextFavorite' | 'popular' | 'favoriteProb' | 'retryProb';
+export type ArchetypeColumn = 'ratio' | 'connectRate' | 'missionRate' | 'leave' | 'nextFavorite' | 'popular' | 'favoriteProb' | 'retryProb' | 'strategicSwitch';
 
 export const ARCHETYPE_COLUMNS: { id: ArchetypeColumn; label: string; help: HelpKey }[] = [
   { id: 'ratio', label: '비율', help: 'archetypeRatio' },
@@ -50,6 +50,7 @@ export const ARCHETYPE_COLUMNS: { id: ArchetypeColumn; label: string; help: Help
   { id: 'popular', label: '탈락 시 유명한 사도', help: 'favoriteEliminated' },
   { id: 'favoriteProb', label: '예선 최애 투표 확률', help: 'favoriteProb' },
   { id: 'retryProb', label: '본선 재도전 확률', help: 'retryProb' },
+  { id: 'strategicSwitch', label: '순위 공개 시 표 옮김', help: 'strategicSwitch' },
 ];
 
 const ARCHETYPE_NAMES: Record<ArchetypeId, string> = Object.fromEntries(
@@ -95,6 +96,7 @@ function archetypeFields(): AssumptionField[] {
     if (a.prelimChoice === 'mostlyFavorite') {
       out.push({ ...base, id: `${id}.favoriteProb`, column: 'favoriteProb', label: `${name} 예선 최애 투표 확률`, desc: '나머지는 선호 2·3순위에게 투표', help: 'favoriteProb', get: (p) => p.archetypes[id].favoriteProb, set: (p, v) => (p.archetypes[id].favoriteProb = n(v)) });
     }
+    out.push({ ...base, id: `${id}.strategicSwitch`, column: 'strategicSwitch', label: `${name} 순위 공개 시 표 옮길 확률`, desc: '순위 공개 시나리오에서만 쓰임', help: 'strategicSwitch', get: (p) => p.archetypes[id].strategicSwitch, set: (p, v) => (p.archetypes[id].strategicSwitch = n(v)) });
     if (a.finalPlay === 'retry') {
       out.push({ ...base, id: `${id}.retryProb`, column: 'retryProb', label: `${name} 본선 재도전 확률`, desc: '2·3번째 입장에서 소탕 대신 직접 도전할 확률', help: 'retryProb', get: (p) => p.archetypes[id].retryProb, set: (p, v) => (p.archetypes[id].retryProb = n(v)) });
     }

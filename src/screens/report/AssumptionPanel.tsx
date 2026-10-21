@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { ARCHETYPE_IDS, DEFAULT_POPULATION } from '../../config/archetypes';
+import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
+import { ARCHETYPE_IDS, DEFAULT_POPULATION, type PopulationConfig } from '../../config/archetypes';
 import {
   ARCHETYPE_COLUMNS,
   ASSUMPTION_FIELDS,
@@ -12,14 +12,22 @@ import { archetypeLabel } from '../../config/reportText';
 import { HelpButton } from '../../components/Help';
 import { useReportStore } from '../../store/reportStore';
 
+/** 패널이 읽고 쓰는 가정값 (검증 리포트용, 시나리오별 등) */
+interface AssumptionBinding {
+  population: PopulationConfig;
+  set: (id: string, value: number | string | null) => void;
+  reset: (ids?: string[]) => void;
+}
+const Ctx = createContext<AssumptionBinding | null>(null);
+const useBinding = () => useContext(Ctx)!;
+
 const isPercent = (f: AssumptionField) => f.kind === 'percent';
 const toView = (f: AssumptionField, v: number) => (isPercent(f) ? Math.round(v * 1000) / 10 : v);
 const fromView = (f: AssumptionField, v: number) => (isPercent(f) ? v / 100 : v);
 
 /** 숫자 입력칸: 입력 중에는 자유롭게, 칸을 벗어나거나 Enter를 누르면 범위 안으로 맞춰 저장 */
 function NumberInput({ f, compact }: { f: AssumptionField; compact?: boolean }) {
-  const population = useReportStore((s) => s.config.population);
-  const setAssumption = useReportStore((s) => s.setAssumption);
+  const { population, set: setAssumption } = useBinding();
   const value = f.get(population);
   const [draft, setDraft] = useState('');
   useEffect(() => {
@@ -55,8 +63,7 @@ function NumberInput({ f, compact }: { f: AssumptionField; compact?: boolean }) 
 }
 
 function ResetButton({ f }: { f: AssumptionField }) {
-  const population = useReportStore((s) => s.config.population);
-  const reset = useReportStore((s) => s.resetAssumptions);
+  const { population, reset } = useBinding();
   const changed = formatFieldValue(f, f.get(population)) !== formatFieldValue(f, f.get(DEFAULT_POPULATION));
   if (!changed) return null;
   return (
@@ -67,8 +74,7 @@ function ResetButton({ f }: { f: AssumptionField }) {
 }
 
 function FieldRow({ f }: { f: AssumptionField }) {
-  const population = useReportStore((s) => s.config.population);
-  const setAssumption = useReportStore((s) => s.setAssumption);
+  const { population, set: setAssumption } = useBinding();
   const value = f.get(population);
   const def = f.get(DEFAULT_POPULATION);
   const changed = formatFieldValue(f, value) !== formatFieldValue(f, def);
@@ -110,7 +116,7 @@ function FieldRow({ f }: { f: AssumptionField }) {
 }
 
 function ArchetypeTable() {
-  const population = useReportStore((s) => s.config.population);
+  const { population } = useBinding();
   const fields = ASSUMPTION_FIELDS.filter((f) => f.group === 'archetype');
   const ratioSum = ARCHETYPE_IDS.reduce((a, id) => a + population.archetypes[id].ratio, 0);
   return (
@@ -154,28 +160,21 @@ function ArchetypeTable() {
   );
 }
 
-/** 기획자가 가정값을 바꿔 보는 패널 (부록 B22) */
-export function AssumptionPanel() {
-  const population = useReportStore((s) => s.config.population);
-  const resetAll = useReportStore((s) => s.resetAssumptions);
+/** 가정값 입력칸 묶음. binding으로 어떤 가정값을 편집할지 정한다 */
+export function AssumptionEditor({ binding, header, intro }: { binding: AssumptionBinding; header?: ReactNode; intro?: ReactNode }) {
+  const { population, reset: resetAll } = binding;
   const changes = diffFromDefault(population);
   return (
-    <div className="card" id="assumptions">
+    <Ctx.Provider value={binding}>
       <div className="hyp-head">
-        <h2>가정값 바꿔 보기</h2>
-        <span className="chip assume">가정값</span>
-        <HelpButton k="assumption" />
+        {header}
         <span style={{ flex: 1 }} />
         <span className="muted">기본값에서 바꾼 칸 {changes.length}개</span>
         <button className="btn ghost" onClick={() => resetAll()} disabled={changes.length === 0}>
           모두 기본값으로
         </button>
       </div>
-      <p className="muted">
-        봇이 어떻게 행동할지에 대한 짐작(가정값)을 직접 바꿔 볼 수 있습니다. 값을 바꾼 뒤 위의 <b>실행</b>을 눌러야 결과에 반영됩니다. 바꾼 값은 이
-        브라우저에만 저장되어, 다시 열어도 유지되고 다른 사람에게는 영향을 주지 않습니다. 진출 인원·보상표 같은 규칙과 판정 기준은 기획자 패널(M5)에서
-        바꿀 수 있게 할 예정입니다.
-      </p>
+      {intro}
       {ASSUMPTION_GROUPS.map((g) => (
         <details key={g.id} className="assume-group" open={g.id === 'archetype' || g.id === 'optimizer' || g.id === 'fervor'}>
           <summary>
@@ -196,6 +195,34 @@ export function AssumptionPanel() {
           )}
         </details>
       ))}
+    </Ctx.Provider>
+  );
+}
+
+/** 검증 리포트의 가정값 바꿔 보기 패널 (부록 B22) */
+export function AssumptionPanel() {
+  const population = useReportStore((s) => s.config.population);
+  const set = useReportStore((s) => s.setAssumption);
+  const reset = useReportStore((s) => s.resetAssumptions);
+  return (
+    <div className="card" id="assumptions">
+      <AssumptionEditor
+        binding={{ population, set, reset }}
+        header={
+          <>
+            <h2>가정값 바꿔 보기</h2>
+            <span className="chip assume">가정값</span>
+            <HelpButton k="assumption" />
+          </>
+        }
+        intro={
+          <p className="muted">
+            봇이 어떻게 행동할지에 대한 짐작(가정값)을 직접 바꿔 볼 수 있습니다. 값을 바꾼 뒤 위의 <b>실행</b>을 눌러야 결과에 반영됩니다. 바꾼 값은 이
+            브라우저에만 저장되어, 다시 열어도 유지되고 다른 사람에게는 영향을 주지 않습니다. 여러 시나리오를 나란히 비교하려면 위쪽 <b>시나리오 비교</b>를
+            쓰세요.
+          </p>
+        }
+      />
     </div>
   );
 }

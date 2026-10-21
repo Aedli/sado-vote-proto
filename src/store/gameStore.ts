@@ -16,7 +16,8 @@ export type Screen =
   | 'battle'
   | 'results'
   | 'devnote'
-  | 'report';
+  | 'report'
+  | 'compare';
 
 export interface Setup {
   seed: number;
