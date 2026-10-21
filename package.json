@@ -10,7 +10,8 @@
     "test": "vitest run",
     "sim": "tsx scripts/sim-cli.ts",
     "gen:saints": "node scripts/gen-saints.mjs",
-    "report": "tsx scripts/report-cli.ts"
+    "report": "tsx scripts/report-cli.ts",
+    "compare": "tsx scripts/compare-cli.ts"
   },
   "dependencies": {
     "react": "^18.3.1",
